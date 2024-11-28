@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+
+
+div.parent {
+    background: linear-gradient(135deg, #080126, #0d0140, #1c1b5a, #2c2a75);
+}
+
+
+input[type="text"] {
+    position: absolute;
+    bottom: 2rem;
+    width: 90vw;
+    background: no-repeat;
+    border: 1px solid white;
+    padding: 1rem;
+    color: white;
+    margin-left: 5vw;
+}
+
+input[type="text"]::placeholder {
+    color: white;
+    letter-spacing: 2px;
+
+}
+
+.bot-message {
+    color: white;
+    border: 1px solid white;
+    min-height: 13rem;
+    max-width: 15rem;
+    padding: .8rem 1rem;
+    min-width: 9rem;
+    background: transparent;
+    min-height: 3rem;
+    letter-spacing: 2px;
+    line-height: 2.5rem;
+    font-family: monospace;
+    font-size: 1.4rem;
+    max-width: 92%;
+    max-height: 19rem;
+    line-height: 3rem;
+    margin-right: 2rem;
+
+    
+}
+
+.chat-window {
+    background: transparent;
+    width: 43vw;
+    height: 23rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
